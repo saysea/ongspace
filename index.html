@@ -5,9 +5,9 @@
     <title>Title</title>
 </head>
 <body>
-<a href="www.yptjiuye.com"><span id="begin">5</span>秒后跳转</a>
+<a href="http://www.yptjiuye.com"><span id="begin">2</span>秒后跳转</a>
 <script>
-    var t=5;
+    var t=2;
     var timer=setInterval(time,1000);
     var spans=document.getElementById("begin");
     function time(){
@@ -15,10 +15,9 @@
         spans.innerHTML='<span>'+t+'</span>';
         if (t==0){
             clearInterval(timer);
-            window.location.href='www.yptjiuye.com';
+			window.location.href="http://www.yptjiuye.com";
         }console.log(t);
     }
 </script>
-
 </body>
 </html>
