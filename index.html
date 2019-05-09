@@ -2,15 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>一片天</title>
+    <title>Title</title>
 </head>
 <body>
-	看不见我
+<a href="www.yptjiuye.com"><span id="begin">5</span>秒后跳转</a>
 <script>
-    var timer=setInterval(time,100);
+    var t=5;
+    var timer=setInterval(time,1000);
+    var spans=document.getElementById("begin");
     function time(){
-		window.location.href='www.yptjiuye.com';
+        t--;
+        spans.innerHTML='<span>'+t+'</span>';
+        if (t==0){
+            clearInterval(timer);
+            return window.location.href='www.yptjiuye.com';
+        }console.log(t);
     }
 </script>
+
 </body>
 </html>
