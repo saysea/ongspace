@@ -173,3 +173,8 @@ a:hover {
 		text-indent: 30px;
 	}
 }
+
+.about {
+	padding-left: 15px;
+	padding-right: 15px;
+}
