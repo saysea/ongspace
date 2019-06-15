@@ -36,9 +36,9 @@ Author:         Suelo
 ================================================*/
 preloader: function (){
 
-	$(window).on('load', function(){
+	/*$(window).on('load', function(){
 		$('#preloader').fadeOut('slow',function(){$(this).remove();});
-	});
+	});*/
 },
 /* End Of Preloader
 ================================================*/
