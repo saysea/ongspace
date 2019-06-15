@@ -36,7 +36,7 @@ Author:         Suelo
 ================================================*/
 preloader: function (){
 
-	/*$(window).on('load', function(){
+	/*$(window).on('load', function(){1
 		$('#preloader').fadeOut('slow',function(){$(this).remove();});
 	});*/
 },
